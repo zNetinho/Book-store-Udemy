@@ -4,24 +4,16 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 ## Development server
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+Inicie a aplicação com `ng serve` o site que está a aplicação: `http://localhost:4200/`.
 
 ## Code scaffolding
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+Projeto criado durante aulas da Udemy, criando um web-site para fazer requisições a uma API que criamos com Spring Boot,
+a aplicação lista livros em suas categorias e tem as opções de deletar e editar os livros.
+A aplicação traz dados salvos no banco de dados que criei e está disponivel no outro repositorio.
 
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+## Material utilizado
+Utilizei alguns componentes do Angular Material e um pouco de CSS.
+Para funcionar esteticamente do jeito que foi planejada execute o comando no terminal
+" npm add @angular/material " vai adicionar a versão mais recente.
+e preciso ter o node.js para executar esse comando.
