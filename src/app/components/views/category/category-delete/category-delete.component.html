@@ -1,1 +1,29 @@
-<p>category-delete works!</p>
+<div class="formulario">
+    <section>
+        <h1 class="title">
+            Deletando categoria
+        </h1>
+    </section>
+    <div class="fields">
+        <section>
+            <form>
+                <mat-form-field class="form">
+                    <mat-label>Nome</mat-label>
+                    <input matInput [(ngModel)]="category.nome" type="text" name="Nome" disabled>
+                </mat-form-field>
+                <mat-form-field class="descricao">
+                    <mat-label>Descrição</mat-label>
+                    <input matInput [(ngModel)]="category.descricao" type="text" name="Descrição" disabled>
+                </mat-form-field>
+            </form>
+        </section>
+    </div>
+    <div class="col">
+        <div class="row">
+            <div class="button">
+                <button class="mat-elevation-z4" id="cancel" mat-stroked-button color="cancel" (click)="delete()">Deletar</button>
+                <button class="mat-elevation-z4" id="create" mat-stroked-button color="sucess" (click)="cancel()">Cancelar</button>
+            </div>
+        </div>
+    </div>
+</div>

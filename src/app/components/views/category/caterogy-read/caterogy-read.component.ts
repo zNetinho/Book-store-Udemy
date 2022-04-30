@@ -2,6 +2,7 @@ import { Category } from './category.model';
 import { CategoryService } from './category.service';
 import { Component, OnInit } from '@angular/core';
 import { Router } from '@angular/router';
+import { Observable } from 'rxjs';
 
 @Component({
   selector: 'app-caterogy-read',
